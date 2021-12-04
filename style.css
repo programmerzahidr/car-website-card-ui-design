@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.car-detailsbox{
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 65px auto;
+    color: #ffff;
+    border-radius: 10px;
+}
+.card1{
+    width: 300px;
+    height: 475px;
+    background: #E28525;
+    padding: 15px;
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
+}
+.card1 img, h1, p{
+    margin-left: 10px;
+    padding: 15px;
+}
+.card1 p{
+    line-height: 25px;
+}
+.sedan-btn{
+    width: 160px;
+    height: 50px;
+    border-radius: 20px;
+    color: #E28525;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    position: absolute;
+    top: 380px;
+    left: 40px;
+    transition: .5s;
+}
+.sedan-btn:hover{
+    background: #E28525;
+    color: #ffff;
+    border: 2px solid #ffff;
+}
+.card2{
+    width: 300px;
+    height: 475px;
+    background: #02666D;
+    padding: 15px;
+    position: relative;
+}
+.card2 img, h1, p{
+    margin-left: 10px;
+    padding: 15px;
+}
+.card2 p{
+    line-height: 25px;
+}
+.suv-btn{
+    width: 160px;
+    height: 50px;
+    border-radius: 20px;
+    color: #02666D;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    position: absolute;
+    top: 380px;
+    left: 40px;
+    transition: .5s;
+}
+.suv-btn:hover{
+    background: #02666D;
+    color: #ffff;
+    border: 2px solid #ffff;
+}
+.card3{
+    width: 300px;
+    height: 475px;
+    background: #00403F;
+    padding: 15px;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+}
+.card3 img, h1, p{
+    margin-left: 10px;
+    padding: 15px;
+}
+.card3 p{
+    line-height: 25px;
+}
+.luxury-btn{
+    width: 160px;
+    height: 50px;
+    border-radius: 20px;
+    color: #00403F;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    position: absolute;
+    top: 380px;
+    left: 40px;
+    transition: .5s;
+}
+.luxury-btn:hover{
+    background: #00403F;
+    color: #ffff;
+    border: 2px solid #ffff;
+}
